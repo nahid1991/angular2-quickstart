@@ -36,6 +36,9 @@ var AppModule = (function () {
                         path: '',
                         redirectTo: '/dashboard',
                         pathMatch: 'full'
+                    }, {
+                        path: 'detail/:id',
+                        component: hero_detail_component_1.HeroDetailComponent
                     }])],
             declarations: [app_component_1.AppComponent,
                 hero_detail_component_1.HeroDetailComponent,
